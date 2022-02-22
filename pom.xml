@@ -9,6 +9,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <artifactId>my-application1</artifactId>  
   <version>1.0</version>  
   <packaging>jar</packaging>  
+  <properties>
+		<docker.image.prefix>kammana</docker.image.prefix>
+		<sonar.host.url>http://13.231.123.5:9000/</sonar.host.url>
+
+	</properties>
   
   <name>Maven Quick Start Archetype</name>  
   <url>http://maven.apache.org</url>  
